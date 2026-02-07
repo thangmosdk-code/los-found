@@ -2,31 +2,37 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>ระบบแจ้งของหายและของที่เจอ</title>
+  <title>สมัครสมาชิก</title>
+
+  <!-- เด้งไปหน้า register.html อัตโนมัติ -->
+  <meta http-equiv="refresh" content="0; url=register.html">
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f5f5f5;
+    }
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
       text-align: center;
-      padding: 50px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .lost {
-      color: red;
-      font-weight: bold;
-    }
-    .found {
-      color: green;
-      font-weight: bold;
+    a {
+      color: #007bff;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-
-  <h1>📦 ระบบแจ้งของหาย / ของที่เจอ</h1>
-  <p class="lost">🔴 ของหาย</p>
-  <p class="found">🟢 ของที่เจอ</p>
-
-  <p>โครงงานนักศึกษา แผนกเทคโนโลยีสารสนเทศ</p>
-
+  <div class="box">
+    <h2>กำลังพาไปหน้าสมัครสมาชิก...</h2>
+    <p>ถ้าไม่เด้ง <a href="register.html">กดที่นี่</a></p>
+  </div>
 </body>
 </html>
